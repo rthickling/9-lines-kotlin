@@ -11,6 +11,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
+    implementation("com.github.nkzawa:socket.io-client:0.6.0")
     testImplementation(kotlin("test-junit"))
 }
 tasks.withType<KotlinCompile>() {
